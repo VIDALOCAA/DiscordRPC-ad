@@ -1,0 +1,18 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "Discord RPC",
+  "main": "index.js",
+  "dependencies": {
+    "console-title": "^1.1.0",
+    "discord-rpc": "git+https://github.com/discordjs/discord-rpc.git",
+    "pkg": "^5.5.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JINXZ",
+  "license": "ISC"
+}
